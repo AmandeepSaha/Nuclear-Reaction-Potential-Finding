@@ -137,7 +137,7 @@ ax.set_title(
 )
 
 ax.set_xlabel(
-    r"Range (fm)",
+    r"Internuclear Distance (fm)",
     fontsize=16
 )
 
