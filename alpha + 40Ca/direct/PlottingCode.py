@@ -73,17 +73,18 @@ line_styles = [
     "-.",
     ":",
     (0, (5, 1)),
-    (0, (3, 1, 1, 1))
+    (0, (3, 1, 1, 1)),
+    (0, (7, 2, 2, 2))
 ]
 
-# Six distinct marker shapes
 markers = [
     "o",
     "s",
     "^",
     "D",
     "v",
-    "P"
+    "P",
+    "X"
 ]
 
 # =====================================================
@@ -142,7 +143,7 @@ ax.set_xlabel(
 )
 
 ax.set_ylabel(
-    r"$V_{\mathrm{direct}}$ (MeV)",
+    r"$U_{\mathrm{D}}$ (MeV)",
     fontsize=16
 )
 
